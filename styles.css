@@ -1,0 +1,95 @@
+/* background color */
+.background {
+    background-color: black;
+}
+
+/* header */
+h1 {
+    text-align: center;
+    color: white;
+    padding: 5% 0 5% 0;
+    margin-top: auto;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    padding: 1%;
+    margin-top: auto;
+}
+/* Spacing */
+table {
+    table-layout: fixed;
+    width: 95%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: auto;
+    background-color: aliceblue;
+}
+thead th:nth-child(1) {
+    width: 5%;
+}
+thead th:nth-child(2) {
+    width: 5%;
+}
+thead th:nth-child(3) {
+    width: 30%;
+}
+
+th, td {
+    padding: 20px;
+}
+
+/* Typography */
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+}
+thead th {
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+tbody td {
+    text-align: center;
+    font-size: large;
+    text-shadow: 1px 1px 1px gray;
+}
+th {
+    letter-spacing: 2px;
+    border: 2px solid black;
+    font-family: monospace;
+    font-size: large;
+}
+
+span {
+    background-color: violet;
+}
+td {
+    letter-spacing: 1px;
+}
+
+thead {
+    background-color: skyblue;
+    color: rgb(76, 69, 69);
+    text-shadow: 1px 1px 1px black;
+}
+
+thead th {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 2px solid black;
+}
+
+tbody td {
+    border: 2px solid black;
+}
+
+caption {
+    font-family: monospace;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
+}
+

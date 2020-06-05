@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+<body class="background">
+    <h1>HTML Forms Reference</h1>
+    <div>
+        <h2 class="header">Form Tags</h2>
+        <table>
+            <caption>Form Elements</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Tag</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"><span>&lt;form&gt;</span></th>
+                    <td>form</td>
+                    <td>Is used to collect and send information to an external source. It can contain various input
+                        elements.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><span>&lt;input&gt;</span></th>
+                    <td>input</td>
+                    <td>Is used to render a variety of input fields on a webpage including text fields, checkboxes,
+                        buttons, etc. input element have a <strong>type</strong> attribute that determines how it gets rendered to a
+                        page.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><span>&lt;label&gt;</span></th>
+                    <td>label</td>
+                    <td>It provides identification for a specific &lt;input&gt; based on matching values of the &lt;input&gt;‘s 'id'
+                        attribute and the &lt;label&gt;‘s 'for' attribute. By default, clicking on the &lt;label&gt; will focus the
+                                field of the related &lt;input&gt;. 
+                                        </td>
+                </tr>
+                <tr>
+                    <th scope="row"><span>&lt;select&gt;</span></th>
+                    <td>select</td>
+                    <td>It can be used to create a dropdown list. A list of choices for the dropdown list can be created
+                        using one or more &lt;option&gt; elements. By default, only one
+                        &lt;option&gt; can be selected at a time. The value of the selected &lt;select&gt;’s <strong>name</strong> and the
+                                    &ltoption&gt;’ s <strong>value</strong> attribute are sent as a key-value pair when the form is submitted.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><span>&lt;datalist&gt;</span></th>
+                    <td>datalist</td>
+                    <td>When using an HTML input, a basic search/autocomplete functionality can be achieved by pairing
+                        an &lt;input&gt; with a &lt;datalist&gt;. To pair a &lt;input&gt; with a &lt;datalist&gt; the
+                        &lt;input&gt;’s <strong>list</strong> value must match the value of the <strong>id</strong> of
+                        the &lt;datalist&gt;. The datalist element is used to store a list of &lt;option&gt;s. The list
+                        of data is shown as a dropdown on an <strong>input</strong> field when a user clicks on the input field. As the
+                        user starts typing, the list will be updated to show elements that best match what has been
+                        typed into the input field. The actual list items are specified as multiple <strong>option</strong> elements
+                        nested inside the <strong>datalist</strong>. <strong>datalists</strong> are ideal when providing users a list of
+                        pre-defined options, but to also allow them to write alternative inputs as well.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><span>&lt;textarea&gt;</span></th>
+                    <td>textarea</td>
+                    <td>The <strong>textarea</strong> element is used when creating a text-box for multi-line input (e.g. a comment
+                        section). The element supports the <strong>rows</strong> and <strong>cols</strong> attributes which determine the height and
+                        width, respectively, of the element. When rendered by the browser, <strong>textarea</strong> fields can be
+                        stretched/shrunk in size by the user, but the <strong>rows</strong> and <strong>cols</strong> attributes determine the initial
+                        size. Unlike the <strong>input</strong> element, the &lt;textarea&gt; element has both opening and closing tags. The <strong>value</strong> of the element is the content in between these tags (much like a &lt;p&gt; element). The code block shows a &lt;textarea&gt; of size 10x30 and with a <strong>name</strong> of <strong>"comment"</strong>.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
